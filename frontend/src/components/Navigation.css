@@ -1,0 +1,127 @@
+.navbar {
+    background-color: #ffffff; 
+    border-bottom: 1px solid #dee2e6; 
+    padding: 10px 20px; 
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%; 
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none; 
+}
+
+.navbar-toggler-icon {
+    background-color: #000; 
+}
+
+.nav-link {
+    color: #000; 
+    font-weight: 500; 
+    transition: color 0.3s ease; 
+}
+
+.nav-link:hover {
+    color: #007bff; 
+}
+
+.nav-dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.nav-dropdown img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #007bff; 
+}
+
+.nav-dropdown .dropdown-toggle::after {
+    display: none; 
+}
+
+.nav-dropdown .dropdown-menu {
+    border-radius: 0; 
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.dropdown-item {
+    color: #000; 
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; 
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; 
+}
+
+.dropdown-item .btn-danger {
+    width: 100%; 
+    text-align: center; 
+}
+
+
+.ms-auto {
+    margin-left: auto !important;
+}
+
+.navbar .btn-primary {
+    background-color: #007bff; 
+    border: none;
+    transition: background-color 0.3s ease; 
+}
+
+.navbar .btn-primary:hover {
+    background-color: #0056b3; 
+}
+
+.navbar .btn-danger {
+    background-color: #dc3545; 
+    border: none;
+    transition: background-color 0.3s ease; 
+}
+
+.navbar .btn-danger:hover {
+    background-color: #c82333; 
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: #ffffff; 
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); 
+    }
+    
+    .navbar-nav {
+        width: 100%; 
+        text-align: center; 
+    }
+    
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 10px 0; 
+    }
+    
+    .navbar-toggler {
+        margin-right: 0; 
+    }
+    
+    .navbar-toggler-icon {
+        background-color: #007bff; 
+    }
+    
+    .navbar-collapse {
+        padding: 10px; 
+    }
+}
